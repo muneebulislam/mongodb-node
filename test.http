@@ -1,0 +1,7 @@
+post http://localhost:3000/userModel
+Content-Type: application/json
+
+{
+   "firstName": "mun",
+   "lastName": "isl"
+}
