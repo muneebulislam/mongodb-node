@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-const URI = "copy uri";
+require('dotenv/config');
 const connectDb = async() => {
-    await mongoose.connect(URI,{ useUnifiedTopology: true, useNewUrlParser: true});
+    await mongoose.connect(process.env.DB_CONNECTION_STRING,{ useUnifiedTopology: true, useNewUrlParser: true});
     console.log('Your database has been connected');
 };
 

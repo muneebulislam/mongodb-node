@@ -1,7 +1,17 @@
-post http://localhost:3000/userModel
+post http://localhost:3000/api/userModel
 Content-Type: application/json
 
 {
    "firstName": "mun",
    "lastName": "isl"
+}
+
+###
+
+post http://localhost:3000/api/userModel
+Content-Type: application/json
+
+{
+   "firstName": "Sarh",
+   "lastName": "muneeb"
 }
